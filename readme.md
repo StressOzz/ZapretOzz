@@ -15,13 +15,17 @@
 ---
 
 **Запуск:**
-- Скачайте [**ZapretOzz.zip**](https://github.com/StressOzz/ZapretOzz/releases/)
-- Распакуйте архив (в папку без символов)
-- в **командной строке Windows** или в **PowerShell** выполните
-```
-netsh int tcp set global timestamps=enabled
-```
+- Скачайте [**ZapretOzz.zip**](https://github.com/StressOzz/ZapretOzz/releases/latest)
+- Распакуйте архив (в папку без спец.символов)
 - Запустите один из **ZapretOzz.exe**
+
+> [!IMPORTANT]
+> После запуска **ZapretOzz.exe** — не закрывайте появившееся окно!
+>
+> Для корректной работы некоторых стратегий, в командной строке Windows или в PowerShell необходимо 1 раз выполнить:
+>```
+>netsh int tcp set global timestamps=enabled
+>```
 
 ---
 <table>
