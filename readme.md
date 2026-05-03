@@ -21,7 +21,7 @@
 ```
 netsh int tcp set global timestamps=enabled
 ```
-- Запустите **ZapretOzz.exe**
+- Запустите один из **ZapretOzz.exe**
 
 ---
 <table>
