@@ -1,5 +1,19 @@
 <h1 align="center"> Zapret для Windows (Discord, Youtube, Roblox...)</h1>
 
+<div align="center">
+
+![Platform](https://img.shields.io/badge/Platform-Windows-orange)
+![Architecture](https://img.shields.io/badge/Architecture-x64-yellow)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Community](https://img.shields.io/badge/Community-Enabled-green)
+![GitHub last commit](https://img.shields.io/github/last-commit/StressOzz/ZapretOzz)
+![Downloads](https://img.shields.io/github/downloads/StressOzz/ZapretOzz/total)
+![Latest Downloads](https://img.shields.io/github/downloads/StressOzz/ZapretOzz/latest/total)
+
+</div>
+
+---
+
 **Запуск:**
 - Скачайте [**ZapretOzz.zip**](https://github.com/StressOzz/ZapretOzz/releases/)
 - Распакуйте архив (в папку без символов)
