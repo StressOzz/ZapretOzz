@@ -1,0 +1,8 @@
+--wf-tcp=443,2053,2083,2087,2096,2302,2502,2802,6112-6119,6695-6710,8443,25565,27015-27030,27036-27037,50001 --wf-udp=88,443,1024-2407,2409-4499,4502-19293,19294-19344,19345-49999,50000-50100,50101-65535
+--filter-udp=88,1024-2407,2409-4499,4502-19293,19345-49999,50101-65535 --dpi-desync=fake --dpi-desync-cutoff=d2 --dpi-desync-any-protocol=1 --dpi-desync-fake-unknown-udp={stun} --new
+--filter-tcp=2302,2502,2802,6112-6119,6695-6710,25565,27015-27030,27036-27037,50001 --dpi-desync-any-protocol=1 --dpi-desync-cutoff=n5 --dpi-desync=multisplit --dpi-desync-split-seqovl=582 --dpi-desync-split-pos=1 --dpi-desync-split-seqovl-pattern={stun} --new
+--filter-udp=443 --dpi-desync=fake --dpi-desync-repeats=11 --dpi-desync-fake-quic={quicgoogle} --new
+--filter-udp=19294-19344,50000-50100 --filter-l7=discord,stun --dpi-desync=fake --dpi-desync-fake-discord={stun} --dpi-desync-fake-stun={stun} --dpi-desync-repeats=6 --new
+--filter-tcp=2053,2083,2087,2096,8443 --hostlist-domains=discord.media --dpi-desync=multisplit --dpi-desync-split-seqovl=568 --dpi-desync-split-pos=1 --dpi-desync-split-seqovl-pattern={stun} --new
+--filter-tcp=443 --hostlist={youtube} --dpi-desync=fake,multisplit --dpi-desync-split-pos=2,sld --dpi-desync-fake-tls=0x0F0F0F0F --dpi-desync-fake-tls={tlsgoogle} --dpi-desync-fake-tls-mod=rnd,dupsid,sni=ggpht.com --dpi-desync-split-seqovl=620 --dpi-desync-split-seqovl-pattern={tlsgoogle} --dpi-desync-fooling=badsum,badseq --new
+--filter-tcp=443 --hostlist-exclude={ignore} --dpi-desync=fake --dpi-desync-fooling=ts  --dpi-desync-fake-tls={pda} --dpi-desync-fake-tls-mod=none
