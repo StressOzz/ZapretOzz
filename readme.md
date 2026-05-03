@@ -7,6 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Community](https://img.shields.io/badge/Community-Enabled-green)
 ![GitHub last commit](https://img.shields.io/github/last-commit/StressOzz/ZapretOzz)
+[![Views](https://views.whatilearened.today/views/github/StressOzz/ZapretOzz.svg)](https://github.com/StressOzz/ZapretOzz)
 ![Downloads](https://img.shields.io/github/downloads/StressOzz/ZapretOzz/total)
 ![Latest Downloads](https://img.shields.io/github/downloads/StressOzz/ZapretOzz/latest/total)
 
