@@ -21,8 +21,6 @@
 - Запустите один из **ZapretOzz.bat**
 
 > [!IMPORTANT]
-> После запуска **ZapretOzz.bat** — не закрывайте появившееся окно!
->
 > Для корректной работы некоторых стратегий, в **командной строке Windows** или в **PowerShell** необходимо **1 раз** выполнить:
 >```
 >netsh int tcp set global timestamps=enabled
