@@ -9,7 +9,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/StressOzz/ZapretOzz)
 [![Views](https://views.whatilearened.today/views/github/StressOzz/ZapretOzz.svg)](https://github.com/StressOzz/ZapretOzz)
 ![Downloads](https://img.shields.io/github/downloads/StressOzz/ZapretOzz/total)
-![Latest Downloads](https://img.shields.io/github/downloads/StressOzz/ZapretOzz/latest/total)
 
 </div>
 
@@ -33,7 +32,6 @@
 Используется для сброса настроек, остановки драйвера **WinDivert**, очистки реестра от **WinDivert**.
 
 Если пропал интернет или перестал работать обход блокировки с **Zapret**.
-
 Также, при переносе папки с **Zapret** в другое место, данную утилиту строго рекомендуется использовать!
 
 ---
